@@ -18,7 +18,19 @@
       "assetExts": ["ttf", "mp4"]
     },
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "com.llamaluvr.reactnativeexpokitdemo",
+      "buildNumber": "0.0.1",
+      "config": {
+        "usesNonExemptEncryption": false
+      },
+      "infoPlist": {
+        "NSHealthShareUsageDescription": "Read and understand health data.",
+        "NSHealthUpdateUsageDescription": "Share workout data with other apps."
+      }
+    },
+    "android": {
+      "versionCode": 1,
+      "package": "com.llamaluvr.reactnativeexpokitdemo"
     }
   }
 }
