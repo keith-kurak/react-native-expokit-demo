@@ -1,6 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import NativeDemo from 'react-native-ios-lib-demo';
+//import NativeDemo from 'react-native-ios-lib-demo';
+const NativeDemo = null;
 
 export default class App extends React.Component {
   constructor() {

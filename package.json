@@ -5,10 +5,17 @@
   "author": null,
   "private": true,
   "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "exp start --offline",
+    "detach": "exp detach",
+    "android": "exp start --android --offline",
+    "ios": "exp start --ios --offline",
+    "detach-ios-init": "pod install --project-directory=ios",
+    "clean-detach": "rm -rf .expo-source && rm -rf ios && rm -rf android"
+  },
   "dependencies": {
     "expo": "^22.0.0",
     "react": "16.0.0-beta.5",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-22.0.1.tar.gz",
-    "react-native-ios-lib-demo": "llamaluvr/react-native-ios-lib-demo"
+    "react-native": "https://github.com/expo/react-native/archive/sdk-22.0.1.tar.gz"
   }
 }
